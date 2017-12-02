@@ -17,7 +17,8 @@ group :production do
 end
 # Use Puma as the app server
 gem 'carrierwave'
-
+gem 'devise'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
